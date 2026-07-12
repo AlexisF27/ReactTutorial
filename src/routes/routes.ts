@@ -1,6 +1,7 @@
 import {  lazy, LazyExoticComponent } from 'react';
 import { JSX } from 'react/jsx-runtime';
 import { NoLazy } from '../lazyload/pages/NoLazy';
+import ShoppingPage from '../components-patterns/pages/ShoppingPage';
 export const LAZY_BASE_PATH = '/lazyload';
 
 
@@ -31,6 +32,13 @@ export const routes: RouteItem[] = [
     path: 'no-lazy',
     Component: NoLazy,
     name: 'no-lazy'
+}
+,
+{
+    to: '/shoppingStore',
+    path: 'shoppingStore',
+    Component: ShoppingPage,
+    name: 'Shopping Store'
 }
 ];
 
