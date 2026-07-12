@@ -111,3 +111,4 @@ los paréntesis de `import(...)`, no de `lazy(...)`.
 4. ¿Hay algún `<Route>` envolvente sin `path` ni `index` agregando
    anidamiento innecesario?
 5. ¿Falta el `<Suspense>` alrededor de las rutas lazy?
+
