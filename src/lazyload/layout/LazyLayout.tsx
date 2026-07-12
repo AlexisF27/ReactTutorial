@@ -18,7 +18,7 @@ export const LazyLayout = () => {
                     {routesLazyChilds.map(({ path, Component }) => (
                         <Route key={path} path={path} element={<Component />} />
                     ))}
-                    <Route path='/*' element={<Navigate replace to="/lazy1" />} />
+                    <Route path='/*' element={<Navigate replace to="lazy1" />} />
 
                 </Routes>
             </Suspense>
